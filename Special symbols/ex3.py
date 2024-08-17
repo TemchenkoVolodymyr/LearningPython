@@ -38,3 +38,16 @@ numbers = "11 18"
 first,second = map(int,numbers.split())
 
 print(f"{min(first,second)} {max(first,second)}")
+
+## F-str
+city = "Kiev"
+street = "Levska"
+house = 25
+app = 254
+print(f"г. {city}, ул. {street}, д. {house}, кв. {app}")
+
+## int() + float()
+dollars = 25
+rub = 1000
+
+print(f"You can take  {int(rub / dollars)}$ for {int(rub)} rub by exchange rate  {dollars}")
