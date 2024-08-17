@@ -39,3 +39,4 @@ print(len(countOfWords.split(" ")))
 #replace()
 cities = "London Kiev Moscow"
 print(cities.replace(" ", ";" ))
+
